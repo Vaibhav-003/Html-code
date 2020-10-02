@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>Form element</tittle>
+    </head>
+    <body>
+        <form action="form.html" method="post">
+            <h1> Signup Form</h1>
+            <hr>
+            <fieldset>
+                <legend>Your Basic Information</legend>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name_user"><br>
+
+                <lable for="email">Email</lable><br>
+                <input type="email" id="email" name="user_email"><br>
+                
+                <lable for="password">Password</lable><br>
+                <input type="password" id="password" name="user_password "><br> <br>
+                <lable>Gender</lable><br>
+                <input type="radio" id="male" value="male" name="user_gender"> <lable for="male">Male</lable>
+                <input type="radio" id="female" value="female" name="user_gender"> <lable for="female">Female</lable>
+            </fieldset>
+            <fieldset>
+                <legend>Your Profile Information</legend>
+                <lable for="bio">Bio</lable><br>
+                <textarea id="bio" name="user_bio"></textarea><br>
+                <label for="Job"> Job Position</label><br>
+                <select id="Job" name=user_name>
+                    <optgroup lable="Web">
+                        <option value="web_developer">Web Developer</option>
+                        <option value="frontend_developer">Front End Developer</option>
+                    </optgroup>
+                    <optgroup lable="Programer">
+                        <option value="python_developer">Python Developer</option>
+                        <option value="php_developer">PHP Developer</option>
+                        <option value="java_developer">Java Developer</option>
+                        <option value="c_developer">c Developer</option>
+                    </optgroup>
+                </select>
+                <br>
+                <lable>Choose Intrested Languages</lable>
+                <input type="checkbox" id="html" value="html" name="Languages">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" value="css" name="Languages">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="python" value="python" name="Languages">
+                <label for="python">Python</label>
+                <input type="checkbox" id="javascript" value="javascript" name="Languages">
+                <label for="javascript">JavaScript</label>
+            </fieldset>
+            <br>
+             
+            <button type="submit">Signup</button>
+            <button type="reset">Clear</button>
+        </form>
+    </body>
+</html>
