@@ -1,2 +1,2 @@
-# Html-code
-Html code for Beginer
+# HTML code
+HTML code for Beginner
